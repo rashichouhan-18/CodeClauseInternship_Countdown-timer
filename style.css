@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #eae3e3;
+}
+
+.container {
+    text-align: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.countdown div {
+    margin: 0 10px;
+    font-size: 2em;
+    background: #ae9797;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
